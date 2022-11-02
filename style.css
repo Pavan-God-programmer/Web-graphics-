@@ -1,1 +1,11 @@
-/* CSS Style Sheet */
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+canvas {
+    border: 1px solid gray ;
+}
