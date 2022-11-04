@@ -25,12 +25,26 @@ ctx.fillText("Hello Canvas!", 300, 50);
 
 ctx.font = "30px Arial";
 ctx.strokeStyle = "blue";
-ctx.strokeText("Hello Canvas!", 350, 150);
+ctx.strokeText("Hello Canvas!", 350, 100);
 
 // Draw lines
-ctx.lineWidth = 40;
+ctx.lineWidth = 4;
 ctx.strokeStyle = "orange";
 ctx.beginPath();
-ctx.moveTo(500, 250);
-ctx.lineTo(700, 200);
+ctx.moveTo(500, 200);
+ctx.lineTo(700, 150);
+ctx.lineTo(600, 100);
 ctx.stroke();
+
+// Graw a polygon
+ctx.fillStyle = "cyan";
+ctx.beginPath();
+ctx.moveTo(500, 400);
+ctx.lineTo(700, 350);
+ctx.lineTo(600, 300);
+ctx.closePath();
+ctx.fill();
+
+//Circlrs 
+ctx.lineWidth = 5;
+ctx.strokeStyle = 
