@@ -45,6 +45,21 @@ ctx.lineTo(600, 300);
 ctx.closePath();
 ctx.fill();
 
-//Circlrs 
+//Circlrs
 ctx.lineWidth = 5;
-ctx.strokeStyle = 
+ctx.strokeStyle = "#0000ff";
+ctx.beginPath();
+ctx.arc(100, 500, 50, 0, 2 * Math.PI);
+ctx.stroke();
+
+ctx.lineWidth = 2;
+ctx.fillStyle = "green";
+ctx.beginPath();
+ctx.arc(250, 500, 30, 0, 2 * Math.PI);
+ctx.fill();
+
+ctx.lineWidth = 2;
+ctx.fillStyle = "#FFFF00";
+ctx.beginPath();
+ctx.arc(250, 500, 20, 0, 2 * Math.PI);
+ctx.fill();
