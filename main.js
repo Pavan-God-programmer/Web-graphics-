@@ -6,6 +6,8 @@ let ctx = cnv.getContext("2d");
 cnv.width = 800;
 cnv.height = 600;
 
+//stroe image
+let htmlLogoImg = document.getElementById("html-log");
 // let's da some stuff
 
 // Draw rectabngle
@@ -63,3 +65,5 @@ ctx.fillStyle = "#FFFF00";
 ctx.beginPath();
 ctx.arc(250, 500, 20, 0, 2 * Math.PI);
 ctx.fill();
+//draw image
+ctx.drawImage(htmlLogoImg, 200, 200);
