@@ -7,7 +7,8 @@ cnv.width = 800;
 cnv.height = 600;
 
 //stroe image
-let htmlLogoImg = document.getElementById("html-log");
+let htmlLogoImg = document.getElementById("html-logo-img");
+
 // let's da some stuff
 
 // Draw rectabngle
@@ -67,3 +68,4 @@ ctx.arc(250, 500, 20, 0, 2 * Math.PI);
 ctx.fill();
 //draw image
 ctx.drawImage(htmlLogoImg, 200, 200);
+ctx.drawImage(htmlLogoImg, 200, 350, 50, 50);
